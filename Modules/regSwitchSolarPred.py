@@ -338,7 +338,7 @@ def definePpv_PlanReal(nb_sim_days, star_date, engagement_regime, file_loc, scal
     
     """
 
-    day_totPeriod = 1440 //5 
+    daily_totPeriod = 1440 //5 
     
     
     # BRP engagement and real Irradiance
