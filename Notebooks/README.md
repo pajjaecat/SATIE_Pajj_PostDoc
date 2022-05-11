@@ -1,4 +1,4 @@
 ## Brief description of all the notebooks contained in this folder
 
 
-All the files that are called within all the notebooks are located in [DataFiles](../DataFiles). When executing, make sure the file location is rightly set
+All the files that are called within all the notebooks are located in [DataFiles](../DataFiles). When executing, make sure the file location is rightly set.
