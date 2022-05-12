@@ -1,3 +1,3 @@
 DataFile ReadMe
 
-[Solar](/Solar_Prediction)
+[Solar](Solar_Prediction)
