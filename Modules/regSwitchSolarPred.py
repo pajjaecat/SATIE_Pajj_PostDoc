@@ -63,7 +63,7 @@ def initialize_predGHI (model_params, per_daylight, prevDay_data, pred_GHI, init
         (1) alpha_dict : Dict 
                 Parameters alpha for each regime or daytype
         (2) i_list: list
-            # Coefficients i in cos(iwt)
+                Coefficients i in cos(iwt)
     per_daylight: Tuple
         Daylight periods
         (0) per_start_daylight: Int
@@ -126,7 +126,7 @@ def dayType_dataPred(model_params, per_daylight, curDay_data ):
         (1) alpha_dict : Dict 
                 Parameters alpha for each regime or daytype
         (2) i_list: list
-            << >>
+                Coefficients i in cos(iwt)
     per_daylight: Tuple
         Daylight periods
         (0) per_start_daylight: Int
@@ -231,7 +231,7 @@ def pred_Irradiance_updater(cur_k, lb_curDay, curDay_frcst_per, per_back_windows
     per_start_daylight, per_end_daylight = per_daylight
     curDay_data, curDay_data_dict = input_data
     
-    day_totPeriod = 1440 //5 
+    day_totPeriod = 1440 //5 # 1440 : Total mimutes of a day
     
     upd_cur_k = cur_k-lb_curDay # Updated current k so that the updated cur_k is always in [0, 288], Δt = 5 mn
 
@@ -338,7 +338,7 @@ def definePpv_PlanReal(nb_sim_days, star_date, engagement_regime, file_loc, scal
     
     """
 
-    daily_totPeriod = 1440 //5 
+    daily_totPeriod = 1440 //5 # 1440 Total minutes in a day
     
     
     # BRP engagement and real Irradiance
