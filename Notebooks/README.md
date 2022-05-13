@@ -15,4 +15,4 @@ Solar irradiance prediction based on different types of day/regimes (clear, Over
 </br>
 
 #### [Entsoe](Entsoe.ipynb)
-Statistics using box plot of imbalance price extracted from [here](https://transparency.entsoe.eu/balancing/r2/imbalance/show?name=&defaultValue=true&viewType=TABLE&areaType=COMBINED_IBA_IPA_SCA&atch=false&dateTime.dateTime=13.12.2021+00:00%7CCET%7CDAYTIMERANGE&dateTime.endDateTime=13.12.2021+00:00%7CCET%7CDAYTIMERANGE&marketArea.values=CTY%7C10YFR-RTE------C!SCA%7C10YFR-RTE------C&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2))
+Statistics using box plot of imbalance price extracted from [here](https://transparency.entsoe.eu/balancing/r2/imbalance/show?name=&defaultValue=true&viewType=TABLE&areaType=COMBINED_IBA_IPA_SCA&atch=false&dateTime.dateTime=13.12.2021+00:00%7CCET%7CDAYTIMERANGE&dateTime.endDateTime=13.12.2021+00:00%7CCET%7CDAYTIMERANGE&marketArea.values=CTY%7C10YFR-RTE------C!SCA%7C10YFR-RTE------C&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)) for year 2019 and 2020
