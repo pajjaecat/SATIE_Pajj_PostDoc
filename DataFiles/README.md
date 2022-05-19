@@ -1,7 +1,7 @@
 ## TO READ
 
 Make sure to decompress all the compressed files (.zip, .7z) in the corresponding folder before calling them within the associated notebook.
-> As exemple decompress the content of the file [DataFiles/ElectricNation.zip](../DataFiles/ElectricNation.zip)  in a the same directory as  [DataFiles/ElectricNation/]
+> As exemple decompress the content of [DataFiles/ElectricNation.zip](../DataFiles/ElectricNation.zip)  in a folder with the same name (ElectricNation/) and put it in the DataFiles directory such as [DataFiles/ElectricNation/]
 
 
 </br>
