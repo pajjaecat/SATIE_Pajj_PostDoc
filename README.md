@@ -9,9 +9,9 @@ In development ...
 ___
 ## Architecture
 The repository is subdivided in 3 subfolders as follows:  
-- [Notebooks](Notebooks/): Contains all the notebooks and examples of usage of the function defined in the modules. 
-- [Modules](Modules/): Contains different modules which themselves contains functions. See [ModulesReadMe](Modules/ModulesREADME.md) for more details
-- [DataFiles](DataFiles/): Contains the files/dataset associated with the notebooks or results of simulation that can be recall for easy use. See [DataReadME](DataFiles/DataFilesREADME.md) for more details
+- [Notebooks](Notebooks/): Contains all the notebooks and examples of usage of the function defined in the modules. See [NotebooksReadMe](Notebooks/NotebooksREADME.md) for a brief description of each notebook;
+- [Modules](Modules/): Contains different modules which themselves contains functions. See [ModulesReadMe](Modules/ModulesREADME.md) for more details;
+- [DataFiles](DataFiles/): Contains the files/dataset associated with the notebooks or results of simulation that can be recall for easy use. See [DataReadME](DataFiles/DataFilesREADME.md) for more details; 
 
 
 ## TODO
