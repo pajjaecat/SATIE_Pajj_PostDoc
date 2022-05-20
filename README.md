@@ -1,7 +1,6 @@
 ## What it is 
 ### A repository that contains my post-Doc Work
 All the code presented here is written in python, making use of the powerful [Jupyter](https://jupyter.org/). A list of the library and packages needed to run the notebooks and modules is availble in [package-list](package-list.txt)
-
 </br>
 
 In development ...
