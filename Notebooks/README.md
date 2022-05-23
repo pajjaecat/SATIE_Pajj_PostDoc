@@ -16,7 +16,7 @@ All the files called within the notebooks here described, are located in [DataFi
 
 
 #### [TestAnEv](TestAnEv.ipynb) 
-> Extract Evs data distribution using the freely available Test-An-Ev [Dataset](http://mclabprojects.di.uniroma1.it/smarthgnew/Test-an-EV/?EV-code=EV1). A [script](../Modules/TestAnEvDataSet_DownloadingScript.py) (from @sharyal) is provided to download the said dataset and a copy is also available in the subfolder [DataFiles/TestAnEvDataset.zip](../DataFiles/TestAnEvDataset.zip) 
+> Extract Evs data distribution using the freely available Test-An-Ev [Dataset](http://mclabprojects.di.uniroma1.it/smarthgnew/Test-an-EV/?EV-code=EV1). A [script](../Modules/TestAnEvDataSet_DownloadingScript.py) (written by [@sharyal](https://github.com/sharyalZ)) is provided to download the said dataset and a copy is also available in the subfolder [DataFiles/TestAnEvDataset.zip](../DataFiles/TestAnEvDataset.zip) 
 
 
 #### [ElectricNation](ElectricNation.ipynb) 
