@@ -154,11 +154,10 @@ def dayType_dataPred(model_params, per_daylight, curDay_data ):
     beta_dict, alpha_dict, i_list = model_params 
     per_start_daylight, per_end_daylight = per_daylight
     
-    day_totPeriod = 1440 //5 
+    day_totPeriod = 1440 //5                  # 1440: Total minutes in a day 
     T = per_end_daylight - per_start_daylight # Total number of period of dailight 
-    w = 2*np.pi/T # T must define a whole cosine period
+    w = 2*np.pi/T                             # T must define a whole cosine period
     t = np.arange(0,day_totPeriod)
-
 
     
     pred_data_dict = {}

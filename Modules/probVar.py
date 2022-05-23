@@ -66,9 +66,8 @@ hor_dict = {'15mn':15,
             '24H':60*24}
     
     
-# 'C:\\Users\\jprince\\Documents\\NUTSTORRE\\My_Jupiter\\GitJupLab\\SATIE_jupy\\MILP\\DataFiles\\EVs_Data_5_reduced3.csv'
-root_folder = 'C:\\Users\\jprince\\Documents\\NUTSTORRE\\My_Jupiter\\GitJupLab\\SATIE_jupy\\'
-evs_data_df = pd.read_csv(root_folder+'MILP\\DataFiles\\EVs_Data_5_reduced3.csv')
+root_folder = '../DataFiles/EvsData/'
+evs_data_df = pd.read_csv(root_folder+'EVs_Data_5_reduced3.csv')
 
 
 sld_freq = 1 # Sliding horizon frequency in minutes
