@@ -28,7 +28,12 @@ All the files called within the notebooks here described, are located in [DataFi
 > Solar irradiance prediction based on different types of day/regimes (clear, Overcast, Mild, Moderate, High ) using [fourrier expansions](https://en.wikipedia.org/wiki/Fourier_series). Following the work of [SAyMSe2016](https://ieeexplore.ieee.org/document/7855546), the solar irradiance is predicted at a fixed hour daily using constant backwards-looking windows. We improve upon the previous method by using variable-length backwards-looking windows and updating the prediction at regular intervals throughout the day. 
 
 #### [V1G_MPC](V1G_MPC.ipynb)
-> MPC V1G
+> MPC V1G simulation based on the formulation proposed in [ProblemFormulation](../PdfFiles/MPC_Prob_Formulation.pdf).
+
+
+
+#### [V1G_MPC_SimResults](V1G_MPC_SimResults.ipynb)
+> The MPC V1G Problem described in [V1G_MPC](V1G_MPC.ipynb) has been solved for different parameters and inputs. The results can be easily accessed for a quick analysis using this notebook.
 
 </br> 
 
