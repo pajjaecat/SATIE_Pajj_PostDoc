@@ -11,14 +11,14 @@ To create a new environment containing all the prerequisites packages, follow th
       conda env create -f environmentFile.yml
     ```
     See [here](https://medium.com/swlh/setting-up-a-conda-environment-in-less-than-5-minutes-e64d8fc338e4) if you encounter ResolvePackageNotFound error.
-3. Activate the new environment by running 
+3. Activate the new environment by running:
     ```python
       conda activate PajjPostDoc
     ```
 4. Open an Anaconda navigator, and select the newly created environment
 
     ![Anaconda_nav (4)](https://user-images.githubusercontent.com/37332216/170979169-14c1203e-e257-4088-8e9e-5010fb09dce3.JPG)
-5. Continue as usual
+5. Continue as usual.
 
 ___
 ## Architecture
