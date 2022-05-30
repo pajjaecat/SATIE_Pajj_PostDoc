@@ -14,11 +14,3 @@ The repository is subdivided in 4 subfolders as follows:
 - [PdfFiles](PdfFiles/): Contains the PDF files. See [PdfReadME](PdfFiles/README.md) for more details.
 
 
-## TODO
-- [x] Update dataset location in all the notebooks
-- [x] Add readMe in each SubFolder
-- [x] Create link between readMe and notebooks
-- [x] Create link between readMe and modules (Is it doable? )
-- [x] Add MPC folder
-- [ ] Create a module for functions used in [MSAR_SolarMeanPred](Notebooks/MSAR_SolarMeanPred.ipynb) and related
- 
