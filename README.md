@@ -29,3 +29,12 @@ The repository is subdivided into four subfolders as follows:
 - [PdfFiles](PdfFiles/): Contains the PDF files. See [PdfReadME](PdfFiles/README.md) for more details.
 
 
+
+[Here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html#:~:text=Anaconda%20supports%20Python%203.7%2C%203.8,current%20default%20is%20Python%203.9.): Create a new environement with a specific python wersion within anaconda
+[Here]()
+
+check all the non default (that are not installed directly when creating the environment) packages 
+```python
+conda env export --from-history -n name_of_your_env
+```
+
