@@ -1,6 +1,16 @@
 ## What it is 
 ### A repository that contains my post-Doc Work
 All the code presented here is written in [python](https://www.python.org/), making use of the powerful [Jupyter](https://jupyter.org/). A list of the library and packages needed to run the notebooks and modules is available in [package-list](package-list.txt). 
+___
+## Architecture
+The repository is subdivided into four subfolders as follows:  
+- [Notebooks](Notebooks/): Contains all the notebooks and examples of usage of the function defined in the modules. See [NotebooksReadMe](Notebooks/README.md) for a brief description of each notebook ;
+- [Modules](Modules/): Contains different modules(functions and variables). See [ModulesReadMe](Modules/README.md) for more details ;
+- [DataFiles](DataFiles/): Contains the files/dataset associated with the notebooks or simulation results that can be recalled for easy use. See [DataReadME](DataFiles/README.md) for more details.
+- [PdfFiles](PdfFiles/): Contains the PDF files. See [PdfReadME](PdfFiles/README.md) for more details.
+
+
+
 
 Create new environment
 -
@@ -19,15 +29,6 @@ To create a new environment containing all the prerequisites packages, follow th
 
     ![Anaconda_nav (4)](https://user-images.githubusercontent.com/37332216/170979169-14c1203e-e257-4088-8e9e-5010fb09dce3.JPG)
 5. Continue as usual.
-
-___
-## Architecture
-The repository is subdivided into four subfolders as follows:  
-- [Notebooks](Notebooks/): Contains all the notebooks and examples of usage of the function defined in the modules. See [NotebooksReadMe](Notebooks/README.md) for a brief description of each notebook ;
-- [Modules](Modules/): Contains different modules(functions and variables). See [ModulesReadMe](Modules/README.md) for more details ;
-- [DataFiles](DataFiles/): Contains the files/dataset associated with the notebooks or simulation results that can be recalled for easy use. See [DataReadME](DataFiles/README.md) for more details.
-- [PdfFiles](PdfFiles/): Contains the PDF files. See [PdfReadME](PdfFiles/README.md) for more details.
-
 
 
 [Here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html#:~:text=Anaconda%20supports%20Python%203.7%2C%203.8,current%20default%20is%20Python%203.9.): Create a new environement with a specific python wersion within anaconda
